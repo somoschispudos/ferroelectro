@@ -1,0 +1,35 @@
+#loginbody {
+    background: url(../../images/ferro.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #bodyall {
+    /* background: url(../../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background: #343b3a;
+    background: -moz-linear-gradient(180deg, #343b3a 0%, #5a5f5f 52%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, #343b3a 0%, #5a5f5f 52%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, #343b3a 0%, #5a5f5f 52%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#343b3a",endColorstr="#ffffff",GradientType=1);
+  }
+
+
+  .loginshadow{
+    background-color: rgba(256,256,256,.7);
+    -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  }
+
+  .page-title-box > h4{
+    color: #fff !important;
+  }
+
+  label, th{
+    color: #343b3a;
+  }
